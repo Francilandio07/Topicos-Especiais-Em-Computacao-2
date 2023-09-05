@@ -9,7 +9,7 @@ public class NaoOrdenado {
 		Random gerador = new Random();
 		
 		int cont =0;
-		for (int i = 0; i < 500000; i++) {
+		for (int i = 0; i < 500; i++) {
 			
 			if(cont < 9) {
 				System.out.print(gerador.nextInt(1000) + ",");
